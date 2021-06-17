@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Presentación</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="AppWeb/img/proyico.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="AppWeb/css/styles.css" rel="stylesheet" />
+
+    </head>
+    <body>
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!"><img src="AppWeb/img/logoproy.png" class="img-fluid" alt="" width="35" ></a>
+                <a class="navbar-brand" href="#!">PROYECTO INTEGRADOR 1</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Presentación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AppWeb/equipo.html">Equipo de trabajo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AppWeb/exploratorio.html">Análisis Exploratorio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AppWeb/tablero.html">Sistema de Recomendación</a></li>
+                    </ul>
+                </div>
+          </div>
+      </nav>
+
+        <!-- Page Content-->
+        <section>
+          <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+              <p><br></p>
+              <h1 align='center' class="mt-5">Representación gráfica georreferenciada de la clasificación de la calidad de planteles educativos con análisis de correlación con planteles
+                vecinos categorizada por variables sociales, económicas y demográficas
+              </h1>
+              <div class="col-lg-6">
+
+                <p><br></p>
+              </div>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+          <p><br><br></p>
+
+          <!-- ======= About Section ======= -->
+          <section id="about" class="about">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-lg-6" data-aos="zoom-in">
+                  <img src="AppWeb/img/about.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
+                  <div class="content pt-4 pt-lg-0">
+                    <h3>Introducción</h3>
+                    <p class="fst-italic">
+                      El presente proyecto busca determinar cuál plantel educativo posee mayor calidad partiendo de condiciones de entrada definidas y ubicado en una zona particular y
+                      su correlación con planteles cercanos bajo las mismas condiciones, además, de obtener una recomendación de los planteles en un rango de distancia definido que
+                      cumplan condiciones de clusterización partiendo de las variables seleccionadas.
+                    </p>
+                    <p><br></p>
+                    <h4>
+                      Problema a resolver
+                    </h4>
+                    <ul>
+                      <li><i class="bi bi-check-circle"></i> ¿Cuál institución educativa presenta mejor calidad partiendo de una ubicación especifica del municipio teniendo en cuenta características sociales, económicas y demográficas?</li>
+                      <li><i class="bi bi-check-circle"></i> ¿Cuál institución educativa presenta mejor calidad en el mismo municipio tomando características sociales y económicas?</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section><!-- End About Section -->
+
+          <p><br><br></p>
+          <hr class="featurette-divider">
+          <p><br></p>
+          <!-- ======= Hero Section ======= -->
+          <section id="hero">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+                  <div>
+                    <h1>Solución propuesta</h1>
+                    <p>
+                      El analisis se basará en variables que representan criterios reales, como la distancia espacial de un lugar específico respecto a las instituciones,
+                      su el rendimiento académico, el estrato socioeconómico entre otras variables propias de cada institución
+                    </p>
+                    <p>
+                      La solución al problema se realizará de forma gráfica, y busca determinar un cerco de instituciones alrededor de la ubicación ingresada, que para casos
+                      prácticos puede ser la vivienda de estudiante donde se pueda filtrar por aquellas instituciones cercanas a las cuales pueda acceder.
+                    </p>
+                    <p>Para dar solución a este propósito, nos apoyaremos en modelos de segmentación para poder encontrar clúster de instituciones educativas de acuerdo con
+                      características propias, el cálculo de distancias desde la georreferenciación, la creación de métricas ponderadas de criterios a la hora de determinar
+                      los cercos, análisis descriptivo-exploratorio para determinar correlaciones o relevancia de variables dentro del análisis.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+                  <img src="AppWeb/img/hero-img.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+          </section><!-- End Hero -->
+
+          <p><br><br></p>
+          <hr class="featurette-divider">
+          <p><br></p>
+
+          <!-- ======= Hero Section ======= -->
+          <section id="data">
+            <div class="container" >
+              <h1>Fuentes de datos</h1>
+              <p>Las fuentes de datos para el desarrollo del proyecto se obtuvieron de las páginas de ICFES y de Datos Abiertos Colombia del Ministerio de Tecnologías de la Información y las Comunicaciones,
+                ambas fuentes de información pública disponibles para proposito general, con las siguientes caracteristicas</p>
+              <p></p>
+
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> El repositorio de datos, DataICFES, contiene información de las pruebas que desarrolla el ICFES. Además, pone a disposición de los investigadores,
+                     estudiantes, comunidad educativa y comunidad general, los instrumentos necesarios para adelantar investigaciones que estén orientadas al mejoramiento de la calidad
+                      educativa.
+                    </li>
+                  <li><i class="bi bi-check-circle"></i>El repositorio de DATOS ABIERTOS COLOMBIA tiene como objetivo promover y habilitar las condiciones para el uso de los datos y en la actualidad cuenta con
+                    mas de 5526 datos disponibles para investigar, desarrollar aplicaciones, crear visualizaciones e historias.
+                  </li>
+                </ul>
+
+                <p><br></p>
+              <div class="row" style='text-align:center'>
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+                  <div>
+                    <img src="AppWeb/img/icfes.png" alt="" width="160" height="80">
+                    <p><a href="https://www.icfes.gov.co/">mas información</a></p>
+                  </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+                  <img src="AppWeb/img/dabiertos.png" alt="" width="250" height="100">
+                  <p><a href="https://www.datos.gov.co/">mas información</a></p>
+                </div>
+              </div>
+            </div>
+
+          </section><!-- End Hero -->
+
+          <p><br><br></p>
+          <hr class="featurette-divider">
+          <p><br></p>
+
+          <section>
+            <div class="container" >
+              <h3>Metodología para la implementación</h3>
+              <p>
+                El proyecto se realizará en 6 etapas, mediante un sistema de recomendación desarrollado en Python con la base de datos de los resultados de las pruebas saber 11.
+              </p>
+              <ul>
+
+                <li>
+                  <b><i class="bi bi-check-circle"></i>Etapa 1: Recolección de la información</b>
+                </li>
+                <p>Para esta etapa se debe descargar las diferentes bases de datos que serán utilizadas en el análisis. La caracterización de las instituciones, su georreferenciación
+                  y variaciones descriptivas adicionales. Al ser datos abiertos y disponibles al pública se hará de forma manual y se cargaran al repositorio de almacenamiento seleccionado.
+                <br></p>
+
+                <li>
+                  <b><i class="bi bi-check-circle"></i>Etapa 2: Implementación del DataLake</b>
+                </li>
+                <p>Dado el volumen de información y la necesidad de pre-procesar la información, se decide utilizar el Datalake de AWS (S3). Posterior a la ingesta, se procede a hacer un proceso de
+                  ETL vía GLUE que nos permita tener la información alojada en tablas en base datos para facilitar el proceso de consolidación de información.
+                <br></p>
+
+                <li>
+                  <b><i class="bi bi-check-circle"></i>Etapa 3: Estructuración y preparación de los datos</b>
+                </li>
+                <p>En dicha etapa se espera hacer un proceso de limpieza, consolidación y validación de la base de datos a utilizar con el fin de tener un único dataset unificado a nivel de
+                  institución educativo con todas las variables disponibles para posterior revisión de significancia y pertinencia. Para tal fin, el componente de Athena de AWS se vuelve el más indicado.
+                <br></p>
+
+                <li>
+                  <b><i class="bi bi-check-circle"></i>Etapa 4: Análisis exploratorio de los datos</b>
+                </li>
+                <p>En la etapa de exploración se busca hacer un análisis estadístico descriptivo de todas las variables disponibles de instituciones disponibles, desde un enfoque univariado
+                  (completitud, tendencia central, significancia, distribución) y multivariado (Correlación total y parcial, variabilidad, explicabilidad) que permita determinar cuáles serán las
+                  variables indicadas para proceder a la etapa de modelación e industrialización. Adicionalmente, en esta etapa también se incluye la creación de métricas.
+                <br></p>
+
+                <li>
+                    <b><i class="bi bi-check-circle"></i>Etapa 5: Modelamiento del sistema de recomendación</b>
+                </li>
+                <p>En primera instancia se busca desarrollar un modelo de corte no supervisado para identificar clúster o grupos de instituciones educativas que tengan características similares,
+                  y de esta manera poder análisis estos grupos internamente. De allí, que a la hora de seleccionar la institución más adecuada se pueda acotar la búsqueda entregando el clúster
+                  con más cercanía a las características solicitadas. Para ello se busca testear modelos como:
+                </p>
+                <i>K-Means <br></i>
+                <i>DBSCAN <br></i>
+                <i>Mean Shift <br></i>
+                <i>AGNES, entre otros <br></i>
+                <p></p>
+                <p>Posterior al modelamiento se busca hacer una evaluación del modelo óptimo, de ahí que revisando en la literatura nos apoyaremos en validaciones internas y externas, donde en la primera
+                  se calculara la cohesión (Minimización de la distancia entre integrantes del clúster) y la separación (Maximización de distancia entre los grupos encontrados).
+                </p>
+                <p>Entendiendo el comportamiento o las particularidades de las instituciones, se propone una aproximación de sistema de recomendación donde se tenga en cuenta una la geolocalización de referencia,
+                  así como algunas variables socioeconómicas que permitan acotar las opciones, de manera que al tener el claro los clústeres que más se ajusten, se tengan también la distancia a las instituciones
+                  más cercanas que se encuentran dentro de dichos segmentos.
+                </p>
+
+                <li>
+                  <b><i class="bi bi-check-circle"></i>Etapa 6: Implementación de la interfaz de usuario (FrontEnd)</b>
+                </li>
+                <p>Basándonos en la API suministrada por las librerías de las aplicaciones Gis para el lenguaje Python se construirá una aplicación web que permitirá ingresar los parámetros de
+                  entrada definidos por el modelo y mostrará el mapa con las instituciones que cumplen con la condición de cercanía y clusterización. Además, listará ordenadamente estas instituciones
+                  partiendo de la calificación de calidad en resultados en las pruebas saber 11, su grafica de distribución de resultados desde el año 2010 de sus estudiantes.
+                <br></p>
+
+              </ul>
+            </div>
+          </section>
+        </section>
+
+    <p><br></p>
+
+ <!-- PIE DE PÁGNA -->
+<footer class="text-center footer-style">
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="container">
+      <div class="row text-white" >
+        <div class="col-md-4 footer-col">
+          <p><br></p>
+          <img src="AppWeb/img/logoeafit.png" class="img-fluid" alt="" width="200" >
+        </div>
+        <div class="col-md-4 footer-col">
+           <h2>Universidad EAFIT</h2>
+           <p>Maestría en Ciencia de Datos y Analitica - 2021</p>
+           <p>Proyecto Integrador I</p>
+           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="AppWeb/equipo.html"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Siguiente >></button></a>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <img src="AppWeb/img/logoproy.png" class="img-fluid" alt="" width="150" >
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="AppWeb/js/scripts.js"></script>
+  </body>
+</html>
